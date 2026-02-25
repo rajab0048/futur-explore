@@ -28,7 +28,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/futur-explore">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/login" element={<Login />} />
