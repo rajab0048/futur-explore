@@ -135,8 +135,8 @@ export const optimizeImages = (): void => {
 // Preload critical resources
 export const preloadCriticalResources = (): void => {
   const criticalResources = [
-    '/fonts/inter-var.woff2',
-    '/images/hero-illustration.webp'
+    '/futur-explore/fonts/inter-var.woff2',
+    '/futur-explore/images/hero-illustration.webp'
   ];
 
   criticalResources.forEach(resource => {
